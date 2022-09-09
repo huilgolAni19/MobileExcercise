@@ -42,6 +42,8 @@ class AccountsActivity : AppCompatActivity() {
             var intent = Intent(this, TransactionsActivity::class.java)
             intent.putExtras(bundle)
             startActivity(intent)
+
+
         }
         fetchAccounts()
     }
